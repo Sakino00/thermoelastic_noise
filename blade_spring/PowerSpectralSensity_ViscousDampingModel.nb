@@ -1,0 +1,79 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2154,         71]
+NotebookOptionsPosition[      1607,         54]
+NotebookOutlinePosition[      2021,         71]
+CellTagsIndexPosition[      1978,         68]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Viscous Damping Model", "Text",
+ CellChangeTimes->{{3.9103146299990377`*^9, 
+  3.9103146368167005`*^9}},ExpressionUUID->"a79a1524-be7e-464c-a28f-\
+73cbed58fcbf"],
+
+Cell[BoxData[
+ RowBox[{"Gv", "=", 
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"4", " ", "kB", " ", "T"}], 
+     RowBox[{"m", " "}]], 
+    FractionBox["\[Omega]0", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["\[Omega]", "2"], "-", 
+        SuperscriptBox["\[Omega]0", "2"]}], ")"}], "+", 
+      RowBox[{
+       SuperscriptBox["\[Omega]0", "2"], 
+       RowBox[{
+        SuperscriptBox["\[Omega]", "2"], "/", 
+        SuperscriptBox["Q", "2"]}]}]}]]}], "/.", 
+   "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.9103146435758867`*^9, 3.9103148358024087`*^9}, {
+  3.910314910862508*^9, 
+  3.9103149246342587`*^9}},ExpressionUUID->"73989c05-1e42-4272-8f50-\
+fb1c1d24670a"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.9103146223839054`*^9, 
+  3.910314624708767*^9}},ExpressionUUID->"42fc5d04-629c-4881-9581-\
+893983b21d91"]
+},
+WindowSize->{1428, 735.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (2023\:5e747\:670824\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ea52857b-14c2-4e4f-bb2e-8fcc3a73dbcf"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 167, 3, 35, "Text",ExpressionUUID->"a79a1524-be7e-464c-a28f-73cbed58fcbf"],
+Cell[728, 25, 718, 22, 74, "Input",ExpressionUUID->"73989c05-1e42-4272-8f50-fb1c1d24670a"],
+Cell[1449, 49, 154, 3, 28, "Input",ExpressionUUID->"42fc5d04-629c-4881-9581-893983b21d91"]
+}
+]
+*)
+
